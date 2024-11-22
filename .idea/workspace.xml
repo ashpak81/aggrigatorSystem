@@ -4,35 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7648bba-b57f-46f8-9b8f-20759523c156" name="Changes" comment="SystemAggrigator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Entity/ConsentDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Entity/Institute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Entity/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Entity/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/AggrigatorSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/AggrigatorSystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Model/ConsentDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Model/Institute.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Model/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Entity/UserPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Model/Users.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Repository/ConsentDetailsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Repository/ConsentDetailsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Repository/InstituteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Repository/InstituteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Repository/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Repository/UsersRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Services/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Services/MyUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Controller/UsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Model/ConsentDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Model/ConsentDetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Model/Institute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Model/Institute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Model/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Model/Users.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Services/UserService.class" afterDir="false" />
-    </list>
+    <list default="true" id="a7648bba-b57f-46f8-9b8f-20759523c156" name="Changes" comment="SystemAggrigator" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,7 +114,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732193366114</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SystemAggrigator">
+      <option name="closed" value="true" />
+      <created>1732286309585</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732286309585</updated>
+    </task>
+    <task id="LOCAL-00004" summary="SystemAggrigator">
+      <option name="closed" value="true" />
+      <created>1732286453061</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732286453061</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
