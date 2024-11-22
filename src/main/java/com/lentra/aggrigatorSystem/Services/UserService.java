@@ -1,8 +1,8 @@
 package com.lentra.aggrigatorSystem.Services;
 
 
-import com.lentra.aggrigatorSystem.Model.Institute;
-import com.lentra.aggrigatorSystem.Model.Users;
+import com.lentra.aggrigatorSystem.Entity.Institute;
+import com.lentra.aggrigatorSystem.Entity.Users;
 import com.lentra.aggrigatorSystem.Repository.InstituteRepository;
 import com.lentra.aggrigatorSystem.Repository.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +17,8 @@ public class UserService {
 
     @Autowired
     private JWTService jwtService;
+
+
 
     @Autowired
     AuthenticationManager authManager;

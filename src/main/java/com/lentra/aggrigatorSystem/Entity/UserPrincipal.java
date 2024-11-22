@@ -1,4 +1,4 @@
-package com.lentra.aggrigatorSystem.Model;
+package com.lentra.aggrigatorSystem.Entity;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

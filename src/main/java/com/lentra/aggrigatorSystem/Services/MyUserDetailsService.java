@@ -1,7 +1,7 @@
 package com.lentra.aggrigatorSystem.Services;
 
-import com.lentra.aggrigatorSystem.Model.UserPrincipal;
-import com.lentra.aggrigatorSystem.Model.Users;
+import com.lentra.aggrigatorSystem.Entity.UserPrincipal;
+import com.lentra.aggrigatorSystem.Entity.Users;
 import com.lentra.aggrigatorSystem.Repository.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
