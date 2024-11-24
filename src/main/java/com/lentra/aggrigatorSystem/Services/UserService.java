@@ -66,19 +66,10 @@ public class UserService {
         // Encrypt the user's password
         user.setUserPassword(encoder.encode(user.getUserPassword()));
 
-        // Save the user to the database
         repo.save(user);
 
         return user;
     }
-
-
-
-//    public Users register(Users user) {
-//        user.setUserPassword(encoder.encode(user.getUserPassword()));
-//        repo.save(user);
-//        return user;
-//    }
 
     public String verify(Users user) {
         Authentication authentication = authManager.authenticate(new UsernamePasswordAuthenticationToken(user.getUserId(), user.getUserPassword()));

@@ -1,6 +1,5 @@
 package com.lentra.aggrigatorSystem.Entity;
 
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

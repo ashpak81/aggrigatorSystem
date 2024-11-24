@@ -26,7 +26,7 @@ public class ConsentDetails {
 
     private int lanNo;
 
-    private int customerName;
+    private String customerName;
 
     private String consentType;
 
