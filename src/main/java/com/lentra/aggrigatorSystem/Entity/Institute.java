@@ -7,7 +7,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 
 @Entity
@@ -23,9 +25,9 @@ public class Institute {
     private String instituteName;
 
     @OneToMany(mappedBy = "userInstitute" , cascade = CascadeType.ALL)
-    private List<Users> usersList = new ArrayList<>();
+    private Set<Users> usersList = new HashSet<>();
 
     @OneToMany(mappedBy = "consentInstitute" ,cascade = CascadeType.ALL)
-    private List<ConsentDetails> consentDetailsList = new ArrayList<>();
+    private Set<ConsentDetails> consentDetailsList = new HashSet<>();
 
 }

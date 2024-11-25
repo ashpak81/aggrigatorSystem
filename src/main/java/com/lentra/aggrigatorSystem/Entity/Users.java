@@ -20,5 +20,4 @@ public class Users {
     @JoinColumn(name = "Institude_id")
     private Institute userInstitute;
 
-
 }
