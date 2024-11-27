@@ -21,27 +21,6 @@ public class UsersController {
     @Autowired
     private UserService service;
 
-
-    @GetMapping( "/a" )
-    public String greet(HttpServletRequest request) {
-        return "Welcome Ashpak " + request.getSession().getId();
-    }
-
-//    @GetMapping("/dashboard")
-//    public List<ConsentDetails> consentDetails(@RequestBody Institute institute)
-//    {
-//
-//        return service.consentDetails(institute);
-//
-//    }
-
-    @GetMapping("/dashboard")
-    public List<ConsentDetails> consentDetailsByInstitudeId(@RequestBody Users users)
-    {
-
-        return service.consentDetails(users);
-    }
-
     @PostMapping("/register")
     public Users register(@RequestBody Users user) {
         return service.register(user);

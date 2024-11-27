@@ -18,11 +18,11 @@ public class ConsentDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int consentId;
 
-    private int customerId;
+    private String customerId;
 
     private String consentStatus;
 
-    private int applicationId;
+    private String applicationId;
 
     private int lanNo;
 
@@ -37,6 +37,8 @@ public class ConsentDetails {
     private int frequency;
 
     private int pullsRemaining;
+
+    private String FIType;
 
     @ManyToOne
     @JoinColumn(name = "institude_id")

@@ -10,5 +10,4 @@ public class AggrigatorSystemApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AggrigatorSystemApplication.class, args);
 	}
-
 }

@@ -73,42 +73,5 @@ public class UserService {
             return "fail";
         }
     }
-
-
-    public List<ConsentDetails> consentDetails(Users users) {
-
-
-        try {
-            if (users == null) {
-                throw new IllegalArgumentException("User object cannot be null");
-            }
-
-            if (users.getUserInstitute() == null || users.getUserInstitute().getInstituteName() == null) {
-                throw new IllegalArgumentException("Institute name cannot be null");
-            }
-
-            String instituteName = users.getUserInstitute().getInstituteName();
-            Institute institute = instiRepo.findByInstituteName(instituteName);
-            if (institute == null) {
-                    throw new IllegalArgumentException("No institute found with name: " + instituteName);
-            }
-
-            List<ConsentDetails> consentDetails = consRepo.findAllByInstituteId(institute.getInstituteId());
-            if (consentDetails.isEmpty()) {
-                throw new IllegalStateException("No consent details found for institute: " + instituteName);
-            }
-
-            return consentDetails;
-        } catch (IllegalArgumentException | IllegalStateException e) {
-            System.err.println("Error: " + e.getMessage());
-            return Collections.emptyList();
-        } catch (Exception e) {
-            System.err.println("Unexpected error: " + e.getMessage());
-            e.printStackTrace();
-            return Collections.emptyList();
-        }
-    }
-
-
 }
 
