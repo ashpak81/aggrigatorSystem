@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7648bba-b57f-46f8-9b8f-20759523c156" name="Changes" comment="Dashboar Api and fix repeated value issue">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Config/CorsFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Controller/DashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Services/DashboardService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/AggrigatorSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/AggrigatorSystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Config/JwtFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Config/JwtFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Controller/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Controller/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Entity/ConsentDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Entity/ConsentDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lentra/aggrigatorSystem/Services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Controller/UsersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Controller/UsersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Services/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lentra/aggrigatorSystem/Services/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +164,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732497341162</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Dashboar Api and fix repeated value issue">
+      <option name="closed" value="true" />
+      <created>1732703809289</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732703809289</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
