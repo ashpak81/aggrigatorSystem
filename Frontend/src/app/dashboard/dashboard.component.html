@@ -1,0 +1,62 @@
+<body style="background-color: #d3dfee; height: 100vh;">
+  <div class="dashboard">
+    <div class="sidebar">
+      <div class="institution-icon">
+        <span>FHA</span>
+      </div>
+      <button class="sidebar-icon" aria-label="Home">
+        <i class="icon-home"></i> <i class="bi bi-house-fill"></i>
+      </button>
+      <button class="sidebar-icon" aria-label="Settings">
+        <i class="icon-settings"></i> <i class="bi bi-gear"></i>
+      </button>
+    </div>
+
+    <div class="main-content">
+      <div class="header">
+        <div class="title-and-search">
+          <h2>List of consent <span class="record-count">{{ recordCount }}</span></h2>
+          <hr>
+        </div>
+        
+        <div>
+          <input type="text" placeholder="Search" class="search-input" [(ngModel)]="searchTerm" (input)="applySearch()"
+            aria-label="Search Records" />
+          <button class="btn btn-outline-secondary" type="button">
+            <i class="bi bi-search"></i>
+          </button>
+        </div>
+
+        <div class="pagination-container">
+          <button class="pagination-btn" (click)="changePage(currentPage - 1)"
+            [disabled]="currentPage === 1">Previous</button>
+          <span class="pagination-info">Page {{ currentPage }} of {{ totalPages }}</span>
+          <button class="pagination-btn" (click)="changePage(currentPage + 1)"
+            [disabled]="currentPage === totalPages">Next</button>
+        </div>
+
+        <div class="header-actions">
+          <button class="add-button" aria-label="Add New Record">
+            + Add New
+          </button>
+        </div>
+      </div>
+
+      <div class="record-list-grid">
+        <div *ngFor="let record of paginatedRecords" class="record-card">
+          <h2>{{ record.customerName }}</h2>
+          <p>Consent Status:
+            <span class="status-tag" [ngClass]="record.consentStatus.toLowerCase()">{{ record.consentStatus }}</span>
+          </p>
+          <p>Consent Type: {{ record.consentType }}</p>
+          <p>Application ID: {{ record.applicationId }}</p>
+          <p>FI Type : {{ record.fitype}}</p>
+          <p>Institute: {{ record.consentInstitute.instituteName }}</p>
+          <button class="more-options" aria-label="More Options">
+            <i class="icon-more"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
